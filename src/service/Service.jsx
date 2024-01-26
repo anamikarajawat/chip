@@ -1,0 +1,93 @@
+export const Service = {
+    getData() {
+        return [
+            { name: 'Augustine', code: 'ind' },
+            { name: 'Brad Grant', code: 'ind' },
+            { name: 'Denide Hall', code: 'ind' },
+            { name: 'Debif Hall', code: 'ind' },
+            { name: 'Daniade Hall', code: 'ind' },
+            { name: 'Aaniade Hall', code: 'ind' },
+            { name: 'Anadniade pall', code: 'ind' },
+            { name: 'Ken Alnarega', code: 'ind' },
+            { name: 'Kwern Alnarega', code: 'ind' },
+            { name: 'Kytiyr akeef', code: 'ind' },
+            { name: 'Brand Inaid', code: 'ind' },
+            { name: 'Charlin Alnarega', code: 'ind' },
+            { name: 'Celvin Cole', code: 'ind' },
+            { name: 'Chapan Alexgender', code: 'ind' },
+            { name: 'Daerma poland', code: 'uk' },
+            { name: 'Haunf poland', code: 'uk' },
+            { name: 'Inhsjdw hfdgf', code: 'uk' },
+            { name: 'Charlin Alnarega', code: 'ind' },
+            {
+                name: 'xlegender'
+            },
+            {
+                name: 'yaya',
+                grade: 'x'
+            }, {
+                name: 'x',
+                frade: 'd'
+            },
+
+            { name: 'Soham Newman', code: 'ind' },
+            { name: 'Denise Hail', code: 'ind' },
+            { name: 'Letittia George', code: 'ind' },
+            { name: 'Nick Giannopoulous', code: 'ind' },
+            { name: 'Narayan Guannnopolous', code: 'ind' },
+            { name: 'Narayan Guannnopolous', code: 'ind' },
+            { name: 'India', code: 'Ind' },
+            { name: 'Palau', code: 'PW' },
+            { name: 'Palestinian Territory, Occupied', code: 'PS' },
+            { name: 'Panama', code: 'PA' },
+            { name: 'Papua New Guinea', code: 'PG' },
+            { name: 'Paraguay', code: 'PY' },
+            { name: 'Peru', code: 'PE' },
+            { name: 'Philippines', code: 'PH' },
+            { name: 'Pitcairn', code: 'PN' },
+            { name: 'Poland', code: 'PL' },
+            { name: 'Portugal', code: 'PT' },
+            { name: 'Puerto Rico', code: 'PR' },
+            { name: 'Qatar', code: 'QA' },
+            { name: 'Reunion', code: 'RE' },
+            { name: 'Romania', code: 'RO' },
+            { name: 'Russian Federation', code: 'RU' },
+            { name: 'RWANDA', code: 'RW' },
+            { name: 'Saint Helena', code: 'SH' },
+            { name: 'Saint Kitts and Nevis', code: 'KN' },
+            { name: 'Saint Lucia', code: 'LC' },
+            { name: 'Saint Pierre and Miquelon', code: 'PM' },
+            { name: 'Saint Vincent and the Grenadines', code: 'VC' },
+            { name: 'Samoa', code: 'WS' },
+            { name: 'San Marino', code: 'SM' },
+            { name: 'Sao Tome and Principe', code: 'ST' },
+            { name: 'Saudi Arabia', code: 'SA' },
+            { name: 'Senegal', code: 'SN' },
+            { name: 'Serbia and Montenegro', code: 'CS' },
+            { name: 'Seychelles', code: 'SC' },
+            { name: 'Sierra Leone', code: 'SL' },
+            { name: 'Singapore', code: 'SG' },
+            { name: 'Slovakia', code: 'SK' },
+            { name: 'Slovenia', code: 'SI' },
+            { name: 'Solomon Islands', code: 'SB' },
+            { name: 'Somalia', code: 'SO' },
+            { name: 'South Africa', code: 'ZA' },
+            { name: 'South Georgia and the South Sandwich Islands', code: 'GS' },
+            { name: 'Spain', code: 'ES' },
+            { name: 'Sri Lanka', code: 'LK' },
+            { name: 'Sudan', code: 'SD' },
+            { name: 'Suriname', code: 'SR' },
+            { name: 'Svalbard and Jan Mayen', code: 'SJ' },
+            { name: 'Swaziland', code: 'SZ' },
+            { name: 'Sweden', code: 'SE' },
+            { name: 'Switzerland', code: 'CH' },
+            { name: 'Syrian Arab Republic', code: 'SY' },
+            { name: 'Taiwan, Province of China', code: 'TW' },
+
+        ];
+    },
+
+    getCountries() {
+        return Promise.resolve(this.getData());
+    }
+};
